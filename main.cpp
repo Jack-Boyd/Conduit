@@ -33,6 +33,8 @@ int main () {
 
   for (const auto& processor : processorChain) {
     processor->process(buffer);
+    printBuffer(buffer);
+    std::cout << "----------------------------\n";
   }
 
   std::cout << "--- New Buffer ---" << std::endl;
