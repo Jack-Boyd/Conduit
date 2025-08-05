@@ -5,10 +5,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(Conduit 
   main.cpp
-  DataBuffer.cpp  
-  GainProcessor.cpp
-  InvertProcessor.cpp
-  NoiseGateProcessor.cpp
 )
 
 include(CTest)
